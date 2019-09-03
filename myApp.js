@@ -71,7 +71,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     
         // reset lastDice to zero
         // lastDice = 0;
-        var input = document.querySelector('.final-score').Value;
+        var input = document.querySelector('.final-score').value;
 
         // undefined, 0, null or "" are coerced to false
         // Anything else is coerced to true
